@@ -5,7 +5,7 @@ You are playing a coin-flipping game with your friend.
 The rules are:
 
 * You are doing `n` coin tosses and write down the results. `H` for heads and `T` for tails.
-* The winner, after `n` tosses is the one who had the longest consecutive wins.
+* The winner, after `n` tosses, is the one who had **the longest consecutive win-streak**.
 
 Write a program that takes a comma-separated string of `H` and `T` and outputs:
 
