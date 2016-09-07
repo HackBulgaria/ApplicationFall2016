@@ -5,10 +5,10 @@ In one of the neighbourhoods in Sofia, there's a very popular drinking game, cal
 The game is unusual, because it combines math & drinking:
 
 * In a standard 2D plain (usually a football field), different bottles are arranged. Each bottle has position, described by `(x, y)` coordinates.
-* In order to walk between bottles, you can use only horizontal and vertical lines - no diagonals.
-* You cannot go back to bottles that have been previously drinked.
+* In order to walk between bottles, **you can use only horizontal and vertical lines** - no diagonals.
+* You can visit a bottle only once.
 
-**Your task is to find the best way(s) to walk between bottles that will give you the least walking distance.**
+**Your task is to find the best way(s) to walk between bottles that will give you the smallest walking distance.**
 
 ## Example
 
