@@ -2,8 +2,7 @@
 
 Problems for the autumn-winter HackBulgaria Courses 2016 https://hackbulgaria.com
 
-In a language of your choice, solve the following 3 problems:
-
+In a language of your choice, solve whatever you can from the following problems:
 
 1. [Heads and Tails](1-Heads-and-Tails)
 2. [Lakes](2-Lakes)
