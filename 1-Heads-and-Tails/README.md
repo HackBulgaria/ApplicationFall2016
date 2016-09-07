@@ -1,4 +1,4 @@
-# 1-Heads-and-Tails
+# Heads and Tails
 
 You are playing a coin-flipping game with your friend.
 

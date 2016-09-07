@@ -1,4 +1,4 @@
-# 2-Strings-and-Numbers
+# Strings and Numbers
 
 You are givem a string `s` which has encoded numbers in it. Your goal is to return the sum of all **numbers** in that string.
 

@@ -1,4 +1,4 @@
-# 1-Lakes
+# Lakes
 
 **We are living in 2D world and we are running out of water!** We are migrating to **KEPLER-186F**, the new planet that NASA discovered, but it is a slow migration because that planet is far far away. 
 
