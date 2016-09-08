@@ -14,11 +14,13 @@ Few important things:
 
 ## Input
 
-We take a string that represents the structure of the lake.
+On the standard input, we read a line - string that represents the structure of the lake.
 
 * `d` - stands for **down**. We are always taking the horizontal line that splits the `1x1` square in half.
 * `h` - stands for **horizontal**
 * `u` - stands for **up**
+
+Output should be the total liters of water.
 
 ## Example 1
 

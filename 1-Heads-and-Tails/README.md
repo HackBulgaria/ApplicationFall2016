@@ -7,7 +7,7 @@ The rules are:
 * You toss a coin `n` times, writing down the results. `H` for heads and `T` for tails.
 * After `n` tosses, the winner is the one who has the **longest consecutive win-streak**.
 
-Write a program that takes from the standard input one line - a comma-separated string of `H` and `T` and outputs:
+Write a program that reads from the standard input one line - a comma-separated string of `H` and `T` and outputs:
 
 * `H wins!` if `H` wins according to the game rules.
 * `T wins!` if `T` wins according to the game rules.

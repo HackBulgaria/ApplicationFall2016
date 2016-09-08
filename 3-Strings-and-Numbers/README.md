@@ -15,6 +15,7 @@ For example, if `9` is encoded with `a`, which is repeated `16` times in `s`, `8
 
 ## Input details
 
+* You read one line from the standard input - the encoded string.
 * You are guaranteed that there won't be two digits encoded with the same number of repeating characters.
 * There will always be encoding for all digits between `0` and `9`.
 * Not all digits from `0` to `9` can be encoded. We can have shorter strings that encode small number of digits.
@@ -22,6 +23,8 @@ For example, if `9` is encoded with `a`, which is repeated `16` times in `s`, `8
 * Input set is `"abcdefghijklmnopqrstuvwxyz!"#$%&\'()*+,-./:;<=>?@[\\]^_{|}~"`
 * If after decoding there are numbers with leading zeroes, ignore them.
 * Results can get very large. Tackle it with big integers.
+
+Output should be the sum of all numbers in the string.
 
 ## Examples
 
