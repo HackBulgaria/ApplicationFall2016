@@ -8,7 +8,7 @@ Write a program that takes the lake structure and calculates the amount of water
 
 Few important things:
 
-* Our lakes live in a 2D grid of 1x1 squares.
+* Our lakes live in a `2D` grid of `1x1` squares.
 * **We are always going to start from depth 0 and finish at depth 0.**
 * Each square can be filled with `1000` liters of water.
 
@@ -16,7 +16,7 @@ Few important things:
 
 We take a string that represents the structure of the lake.
 
-* `d` - stands for **down**. We are always taking the horizontal line that splits the 1x1 square in half.
+* `d` - stands for **down**. We are always taking the horizontal line that splits the `1x1` square in half.
 * `h` - stands for **horizontal**
 * `u` - stands for **up**
 

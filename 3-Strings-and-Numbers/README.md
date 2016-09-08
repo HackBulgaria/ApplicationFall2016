@@ -1,6 +1,6 @@
 # Strings and Numbers
 
-You are givem a string `s` which has encoded numbers in it. Your goal is to return the sum of all **numbers** in that string.
+You are given a string `s` which has encoded numbers in it. Your goal is to return the sum of all **numbers** in that string.
 
 ## Number encoding
 
@@ -9,14 +9,14 @@ In our string `s`, the digits from `0` to `9` are encoded as follows:
 * `9` is encoded with the most repeated character in `s`.
 * `8` is encoded with the most repeated character in `s`, that comes after the one that encodes `9`.
 * `...`
-* `0` is encoded with the most repeated character in `s`, thaat comes after the one that encodes `1`.
+* `0` is encoded with the most repeated character in `s`, that comes after the one that encodes `1`.
 
 For example, if `9` is encoded with `a`, which is repeated `16` times in `s`, `8` can be encoded with `x`, which is repeated `15` times in `s`.
 
 ## Input details
 
 * You are guaranteed that there won't be two digits encoded with the same number of repeating characters.
-* There will always be encodings for all digits between `0` and `9`.
+* There will always be encoding for all digits between `0` and `9`.
 * Not all digits from `0` to `9` can be encoded. We can have shorter strings that encode small number of digits.
 * There will always be enough characters to encode digits from `0` to `9`.
 * Input set is `"abcdefghijklmnopqrstuvwxyz!"#$%&\'()*+,-./:;<=>?@[\\]^_{|}~"`
@@ -27,9 +27,9 @@ For example, if `9` is encoded with `a`, which is repeated `16` times in `s`, `8
 
 Let `s = "bbcccddddeeeeeffffffggggggghhhhhhhhiiiiiiiiijjjjjjjjjja"`
 
-We have the following encodings:
+We have the following encoding:
 
-* `j` is repated `10` times so `j = 9`
+* `j` is repeated `10` times so `j = 9`
 * `i` is repeated `9` times so `i = 8`
 * `h` is repeated `8` times so `h = 7` 
 * `g` is repeated `7` times so `g = 6` 

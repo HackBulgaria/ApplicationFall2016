@@ -1,10 +1,10 @@
 # Game of Bottles
 
-In one of the neighbourhoods in Sofia, there's a very popular drinking game, called Game of Bottles.
+In one of the neighborhoods in Sofia, there's a very popular drinking game, called Game of Bottles.
 
 The game is unusual, because it combines math & drinking:
 
-* In a standard 2D plain (usually a football field), different bottles are arranged. Each bottle has position, described by `(x, y)` coordinates.
+* In a standard `2D` plain (usually a football field), different bottles are arranged. Each bottle has position, described by `(x, y)` coordinates.
 * In order to walk between bottles, **you can use only horizontal and vertical lines** - no diagonals.
 * You can visit a bottle only once.
 
@@ -26,18 +26,24 @@ The obvious solution is taking `A -> B -> C` for total distance of 4. There is a
 
 ## Input
 
-One thing you need to know is that there are going to be, at most, 9 bottles on the field.
+* One thing you need to know is that there are going to be, at most, 9 bottles on the field.
+* Another thing is that all coordinates are going to have positive `x` and `y` coordinates. Imagine the origin of the plane sitting at one of the corners of the field.
 
 You will receive the coordinates as follows:
 
-```
-1, 1
-1, 2
-3, 3
-```
+* First, a number `n` telling you all the points
+* On the next `n` lines, space separated `x` and `y` coordinates.
 
-You need to output the number of possible solutions with the smallest walking distance:
 
 ```
-2
+3
+1 1
+1 2
+3 3
+```
+
+You need to output the length of a possible solutions with the smallest walking distance:
+
+```
+4
 ```
