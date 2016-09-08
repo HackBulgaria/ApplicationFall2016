@@ -1,6 +1,6 @@
 # Strings and Numbers
 
-You are given a string `s` which has encoded numbers in it. Your goal is to return the sum of all **numbers** in that string.
+You are given a string `s` that consists of characters, that encode digits & characters that encode nothing. Your goal is to return the sum of all numbers in that string.
 
 ## Number encoding
 
