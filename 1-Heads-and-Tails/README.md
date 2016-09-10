@@ -21,15 +21,15 @@ Write a program that reads from the standard input one line - a comma-separated 
 
 ----
 
-* Input: `H, H, H, H, T, T, T, T`,
+* Input: `H, H, H, H, T, T, T, T`
 * Output: `Draw!`
 
 ----
 
-* Input: `H, T, H, T, T, H, T`,
+* Input: `H, T, H, T, T, H, T`
 * Output: `T wins!`
 
 ----
 
-* Input: `T, T, T, H, T, T, T, H, T, T, T, H, H, H, H
+* Input: `T, T, T, H, T, T, T, H, T, T, T, H, H, H, H`
 * Output: `H wins!`
